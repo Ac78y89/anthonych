@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <!-- Anthony Chogllo 100% -->
+  <head>
+    <title>nhb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5d2d387567.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles-solutions.css"/>
+  </head>
+  <body>
+    <header>
+      <img src="resources/logo.png" alt="Logo" width="100" height="35"/>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="current-status.html">Current Status</a></li>
+        <li><a href="causes.html">Causes</a></li>
+        <li><a href="political-economic.html">Political/Economic Measures</a></li>
+        <li><a href="solutions.html">Solutions</a></li>
+        <li><a href="potential-impact.html">Potential/Impact</a></li>
+        <li><a href="overview.html">Overview</a></li>
+      </ul>
+      <div>
+        <a href="arabic5.html">Translate</a>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div>
+          <h1><u>Solutions</u></h1>
+          <h4>It is important to find solutions to gender inequality in job opportunities because it 
+            ensures equal access to employment, promotes economic growth, reduces poverty and social exclusion, and fosters a fairer and more just society.</h4>
+        </div>
+      </section>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">Pay Transparency</div>
+          <div class="content">
+            <img src="resources/img15.gif" alt="" width="500" height="300">
+            <div class="text">By holding employers accountable to set fair pay practices and economically empowering women, pay transparency is a simple tool to close gender and racial wage gaps. For example, in Colorado, where a pay range transparency law has been in effect since 2021, a study found that wages on job postings have gone up on average!. Transparent pay practices provide women with access to salary information, empowering them to negotiate job offers more effectively. With knowledge of the typical salary range for a specific position, women can enter negotiations with confidence and ensure they are being offered fair compensation. This helps prevent situations where women may unknowingly accept lower salaries due to a lack of information.</div>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">Social development and cultural openness</div>
+          <div class="content">
+            <img src="resources/img16.gif" alt="" width="500" height="300">
+            <div class="text">It is important to exchange cultures and knowledge in order to abandon intolerance and ossification of customs and traditions. A change in mentality contributes greatly to improving the status of working women, so that negative perceptions and harsh criticisms disappear, thus paving the way for women to work freely. Social development and cultural openness can challenge and transform traditional gender norms and expectations that limit women's career choices. By promoting gender equality and challenging stereotypes, societies can create an environment where women are encouraged to pursue diverse career paths and have equal access to job opportunities</div>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">Skill Based Assessments</div>
+          <div class="content">
+            <img src="resources/img17.gif" alt="" width="500" height="300">
+            <div class="text">Employers should be required to pay men and women equally for performing the same job. The government can enforce this through legislation or by providing incentives to employers who demonstrate fair pay practices. Skill-based assessments provide an objective and standardized method for evaluating candidates' abilities and competencies. This approach reduces the influence of biases and subjective judgments that can disadvantage women in traditional hiring processes. By focusing on skills and performance, women can showcase their capabilities and be evaluated solely based on their merit.</div>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">Establishing Moral Oversight</div>
+          <div class="content">
+            <img src="resources/img18.gif" alt="" width="500" height="300">
+            <div class="text">Moral oversight ensures the establishment of confidential and accessible reporting mechanisms for workplace issues. This empowers women to report any instances of harassment, discrimination, or unethical behavior without fear of retaliation. By fostering a safe reporting environment, moral oversight enables organizations to address and rectify issues promptly, further enhancing job opportunities for women.The problem of harassment is solved by putting oversight and penalties on the harasser. Thus, harassment cases will decrease significantly and women’s self-confidence will increase. Women must also be rehabilitated to deal with such cases in order to be free from silence and fear.</div>
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+      </div>
+    </main>
+    <footer>
+      <div>
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+        <p>&copy; <strong>Guttman Community College & Palestine Ahliya University.</strong></p>
+      </div>
+    </footer>
+
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1
+        }
+        if (n < 1) {
+          slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+  </body>
+</html>

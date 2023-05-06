@@ -1,0 +1,99 @@
+/* Anthony Chogllo 100%*/
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #979A9A;
+  color: #000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 2px solid black;
+  box-sizing: border-box;
+  background-color: #000;
+  font-family: impact;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #117380;
+}
+
+section {
+  width: 70%
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  margin: 5px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  margin: 30px;
+}
+
+.container img {
+  border: 3px solid black;
+}
+
+.container div h4 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.container div p {
+  text-align: center;
+}
+
+i.fa-brands {
+  margin: 0px 10px 0px 0px;
+  font-size: 24px;
+  color: black;
+  margin-top: 10px;
+}
+
+footer {
+  border-top: 1px solid black;
+  text-align: center;
+  margin-top: 10px;
+  color: black;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+}

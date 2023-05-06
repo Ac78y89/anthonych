@@ -1,0 +1,159 @@
+/*Anthony Chogllo 100% */
+body {
+  margin: 0px;
+  background-color: #979A9A;
+  color: #000;
+}
+
+header {
+  background-color: #000000;
+  border-bottom: 2px solid #000;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: impact;
+}
+nav {
+  flex-grow: 1;
+}
+
+p {
+  white-space: pre-line;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #117380;
+}
+
+main {
+  font-family: 'Oswald', sans-serif;
+}
+section {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+  width: 800px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.box1 .text1 {
+  float: left;
+  width: 50%;
+}
+
+.box1 .text2 {
+  float: right;
+  width: 50%;
+}
+
+.box2 .text1 {
+  float: left;
+  width: 50%;
+}
+
+.box2 .text2 {
+  float: right;
+  width: 50%;
+}
+
+.box3 .text1 {
+  float: left;
+  width: 50%;
+}
+
+.box3 .text2 {
+  float: right;
+  width: 50%;
+}
+
+.box4 .text1 {
+  float: left;
+  width: 50%;
+}
+
+.box4 .text2 {
+  float: right;
+  width: 50%;
+}
+
+.box5 .text1 {
+  float: left;
+  width: 50%;
+}
+
+.box5 .text2 {
+  float: right;
+  width: 50%;
+}
+
+.box6 .text1 {
+  float: left;
+  width: 50%;
+}
+
+.box6 .text2 {
+  float: right;
+  width: 50%;
+}
+
+h4 {
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.box1 h4:first-of-type, .box2 h4:first-of-type, .box3 h4:first-of-type, .box4 h4:first-of-type, .box5 h4:first-of-type, .box6 h4:first-of-type {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+i.fa-brands {
+  margin: 0px 10px 0px 0px;
+  font-size: 24px;
+  color: black;
+  margin-top: 10px;
+}
+
+footer {
+  border-top: 1px solid black;
+  text-align: center;
+  margin-top: 10px;
+  color: black;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+}
